@@ -4,11 +4,9 @@
   padding-top: 150px;
   text-align: center;
   text-color: #333;
+  overflow: hidden;
 }
-.container {
-  background-color: rgb(255, 255, 255);
-  height: 100vh;
-}
+
 
 .anticon {
   padding-left: 10px;

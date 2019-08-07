@@ -1,10 +1,11 @@
   import React, { Component } from 'react';
-  import { Icon } from 'antd';
+  import { Icon, Button } from 'antd';
   import './App.css';
   import face from './photo.png'
 
   class App extends Component {
     render() {
+      const resume = 'https://drive.google.com/file/d/1cEU7myTYPqcKQYlQvNRfn6wLqVFRTdLb/view'
       return (
         <div className="container">
           <div className="content">
@@ -22,6 +23,7 @@
                   <Icon type="mail"/>
                 </a>
               </div>
+              <Button onClick={() => window.open(resume, "_blank")} className='buttons' type="primary" shape="round">Download Resume</Button>
           </div>
         </div>
       );

@@ -15,17 +15,17 @@ class App extends Component {
             <img src={face} width="175" alt="" />
             <h1>Stanley Lee</h1>
           </div>
-          <div key="2">
+          <div key="1">
             <p>My website is still in progress, contact me below!</p>
           </div>
           <div id="icons" key="3">
-            <a key="1" href="https://www.linkedin.com/in/leestanleysg/">
+            <a key="2" href="https://www.linkedin.com/in/leestanleysg/">
               <Icon type="linkedin" />
             </a>
-            <a key="2" href="https://github.com/leestanley">
+            <a key="3" href="https://github.com/leestanley">
               <Icon type="github" />
             </a>
-            <a key="3" href="mailto:stl005@ucsd.edu">
+            <a key="4" href="mailto:stl005@ucsd.edu">
               <Icon type="mail" />
             </a>
           </div>

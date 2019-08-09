@@ -10,22 +10,22 @@ class App extends Component {
       "https://drive.google.com/file/d/1cEU7myTYPqcKQYlQvNRfn6wLqVFRTdLb/view";
     return (
       <div className="content">
-        <QueueAnim interval={200} duration={1000}>
-          <div key="1">
+        <QueueAnim interval={250} duration={1500}>
+          <div>
             <img src={face} width="175" alt="" />
             <h1>Stanley Lee</h1>
           </div>
           <div key="1">
             <p>My website is still in progress, contact me below!</p>
           </div>
-          <div id="icons" key="3">
-            <a key="2" href="https://www.linkedin.com/in/leestanleysg/">
+          <div id="icons" key="2">
+            <a href="https://www.linkedin.com/in/leestanleysg/">
               <Icon type="linkedin" />
             </a>
-            <a key="3" href="https://github.com/leestanley">
+            <a href="https://github.com/leestanley">
               <Icon type="github" />
             </a>
-            <a key="4" href="mailto:stl005@ucsd.edu">
+            <a href="mailto:stl005@ucsd.edu">
               <Icon type="mail" />
             </a>
           </div>
@@ -33,7 +33,7 @@ class App extends Component {
             onClick={() => window.open(resume, "_blank")}
             type="primary"
             shape="round"
-            key="4"
+            key="3"
           >
             Download Resume
           </Button>

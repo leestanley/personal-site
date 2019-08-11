@@ -10,11 +10,11 @@ class App extends Component {
       "https://drive.google.com/file/d/1cEU7myTYPqcKQYlQvNRfn6wLqVFRTdLb/view";
     return (
       <div className="content">
+        <div>
+          <img src={face} alt="face" />
+          <h1>Stanley Lee</h1>
+        </div>
         <QueueAnim interval={250} duration={1500}>
-          <div>
-            <img src={face} width="175" alt="" />
-            <h1>Stanley Lee</h1>
-          </div>
           <div key="1">
             <p>My website is still in progress, contact me below!</p>
           </div>

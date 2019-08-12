@@ -11,10 +11,10 @@ class App extends Component {
     return (
       <div className="content">
         <div>
-          <img src={face} alt="face" />
+          <img src={face} alt="face" width="175" height="175" />
           <h1>Stanley Lee</h1>
         </div>
-        <QueueAnim interval={250} duration={1500}>
+        <QueueAnim delay ={200} interval={250} duration={1500}>
           <div key="1">
             <p>My website is still in progress, contact me below!</p>
           </div>

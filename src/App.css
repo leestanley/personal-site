@@ -1,7 +1,8 @@
 @import '~antd/dist/antd.css';
 
+
 .content {
-  padding-top: 15vh;
+  margin-top: 15vh;
   text-align: center;
   color: #333;
   overflow: hidden;

@@ -38,6 +38,7 @@ class App extends Component {
             Download Resume
           </Button>
         </QueueAnim>
+
       </div>
     );
   }

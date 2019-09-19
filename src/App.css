@@ -6,6 +6,10 @@
   overflow: hidden;
 }
 
+.devpost:hover {
+  opacity: .8;
+}
+
 .face {
   margin-top: 10%; 
 }

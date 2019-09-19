@@ -10,7 +10,7 @@ class App extends Component {
       "https://drive.google.com/file/d/1cEU7myTYPqcKQYlQvNRfn6wLqVFRTdLb/view";
     return (
       <div className="content">
-        <div>
+        <div className="face">
           <img src={face} alt="face" width="175" height="175" />
           <h1>Stanley Lee</h1>
         </div>

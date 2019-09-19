@@ -1,13 +1,16 @@
-@import '~antd/dist/antd.css';
-
+@import "~antd/dist/antd.css";
 
 .content {
-  margin-top: 15vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   color: #333;
-  overflow: hidden;
 }
 
+.face {
+  margin-top: 10%; 
+}
 
 .anticon {
   padding-left: 10px;

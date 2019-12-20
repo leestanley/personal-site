@@ -46,7 +46,7 @@ class App extends Component {
             <a href="https://devpost.com/leestanley">
               <DevpostIcon className='devpost' />
             </a>
-            <a href="mailto:stl005@ucsd.edu">
+            <a href="mailto:stanleylee91776@gmail.com">
               <Icon type="mail" />
             </a>
           </div>
